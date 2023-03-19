@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<head>
+<title>forms</title>
+<link rel="stylesheet" type="text/css" href="css/formstyle.css">
+</head>
+<div style = "background-image: url(img/wrapper.jpg")>
+<form>
+<body class="position">
+ <fieldset>
+ <legend>
+Your Details:
+ </legend>
+     <label>
+Name:
+   <input type="text" name="uname" id="name" required="required"/>
+<br />
+Email:
+   <input type="text" id="mail" name="email" required="required"/>
+     </label>
+<br />
+</fieldset>
+<br />
+<fieldset>
+ <legend>
+Your Review:
+ </legend>
+<p>
+     <label for="hearAboutUs" id="about us">
+How did you hear about us?
+     </label>
+        <select name="referrer" id="hear about">
+           <option value="google">Google</option>
+           <option value="advert">Advert</option>
+           <option value="radio">Radio</option>
+           <option value="others" selected="selected">Others</option>
+  </select>
+</p>
+<p>
+Would you visit again?
+<br />
+    <label>
+      <input type="radio" id="yes"name="visit" value="yes" checked="checked">
+      Yes
+    </label>
+    <label>
+      <input type="radio" id="no" name="visit" value="no">
+      No
+    </label>
+    <label>
+    <input type="radio" id="maybe" name="visit" value="maybe">
+    Maybe
+    </label>
+</p>
+<p>
+Choose the favorite sports you prefer(you can choose more than one)
+<br />
+   <label>
+      <input type="checkbox" name="favorite" id="soccer" value="soc" checked="checked">
+Soccer
+   </label>
+<br />
+   <label>
+      <input type="checkbox" name="favorite" id="vol" value="volley">
+Volley
+   </label>
+   <label>
+<br />
+      <input type="checkbox" name="favorite" id="gol" value="golf">
+Golf
+   </label>
+<br />
+   <label>
+      <input type="checkbox" name="favorite" id="ltennis" value="long tennis">
+Long Tennis
+   </label>
+</p>
+<p>
+   <label>
+Comments:
+   </label>
+<br />
+        <textarea name="comments" id="comment" rows="5" cols="40" maxlength="100" placeholder="Enter your comments here:">
+        </textarea>
+</p>
+   <label>
+       <input type="checkbox" id="update" checked="checked">
+sign me up for email updates
+   </label>
+<br />
+      
+       <input type="submit" id="sub" value="Submit review" />
+</fieldset>
+</form>
+</div>
+</body>
+</html>

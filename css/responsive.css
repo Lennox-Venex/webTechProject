@@ -977,4 +977,8 @@ a:active {
 
 .links a:link {
     color:red;}
-
+li:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+    
